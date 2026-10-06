@@ -359,7 +359,7 @@ google.cloud.gcp_pubsub_subscription:
       },
       facts: {
         infra_type: "public_cloud",
-        infra_bucket: "app_integration_messaging",
+        infra_bucket: "devops_app_integration",
         device_type: "messaging",
         module: "gcp_pubsub_subscription",
         name: (.name // (.name | tostring))
@@ -375,7 +375,7 @@ google.cloud.gcp_pubsub_topic:
       },
       facts: {
         infra_type: "public_cloud",
-        infra_bucket: "app_integration_messaging",
+        infra_bucket: "devops_app_integration",
         device_type: "messaging",
         module: "gcp_pubsub_topic",
         name: (.name // (.name | tostring))
